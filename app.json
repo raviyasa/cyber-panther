@@ -20,30 +20,37 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "2102071635:AAHIGSrslpSMGERinwrGNXMuWP96va6wzGw",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": "7326186",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": "c2439bd499e9906e8355e722625d152d",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space",
+            "value": "-1001587484473 -1001518758692 -1001195169661",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "Telegram_files",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "https://telegra.ph/file/3d654906b786d038138ff.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1001705091511",
             "required": true
         },
         "AUTH_USERS": {
@@ -52,14 +59,17 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "-1001625816444",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/gBLTsH-IXr0",
+            "value": "mongodb+srv://methu:methu@cluster0.ivtjmdb.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/gBLTsH-IXr0",
+            "value": "mandini",
             "required": false
         },
         "COLLECTION_NAME": {
